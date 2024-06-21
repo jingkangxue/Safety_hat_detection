@@ -44,6 +44,7 @@ helmet_detection
 │   ├── yolov8.py  #YOLOv8程序
 │   ├── yolov8.yaml		#YOLOv8模型
 │   └── utils.py  #其他插件
+├── data_clean.py  #数据清理
 ├── train.py  #训练模型
 ├── test.py  #测试模型
 ├── inference.py  #推理模型
