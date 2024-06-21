@@ -3,19 +3,25 @@
 
 ## Installation
 ### 1) Code
+在所创建的项目文件夹中打开运行终端，运行以下代码下载文件。
 ```bash
 git clone https://github.com/jingkangxue/Safety_hat_detection
 ```
 ### 2) Data
 数据集下载https://aistudio.baidu.com/datasetdetail/91022
-将HelmetDetection.zip解压缩到.\Dataset目录下面，并将其整理成标准的VOC格式。
+将HelmetDetection.zip解压缩到.dataset目录下面，并将其整理成标准的VOC格式。
 ```bash
 python data_clean.py
+```
+### 3) Library
+下载所需要的python库，在requirements.txt所在的文件夹中打开终端，运行以下代码。
+```bash
+pip install -r requirements.txt
 ```
 ## 项目代码结构
 ```bash
 helmet_detection
-├──Dataset  #数据集
+├──dataset  #数据集
 │   ├── test  #测试集
 │   │   ├── annotations  #标识文件夹
 │   │   │   ├── xxx1.xml	
