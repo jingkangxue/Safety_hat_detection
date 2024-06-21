@@ -13,6 +13,7 @@ git clone https://github.com/jingkangxue/Safety_hat_detection
 python data_clean.py
 ```
 ## 项目代码结构
+```bash
 helmet_detection
 ├──Dataset						#数据集
 │   ├── test				#测试集
@@ -41,6 +42,7 @@ helmet_detection
 ├── inference.py			#推理模型
 ├── requirements.txt		#所需库
 └── README.md		#实现步骤说明
+```
 ## Training
 
 ## Evaluation
