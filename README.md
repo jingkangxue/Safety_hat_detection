@@ -30,10 +30,10 @@ helmet_detection
 │   │   ├── images  #图像文件夹
 │   │   │   ├── xxx1.jpg
 │   │   │   │    ···
-├── label_list.txt  #类别
-├── test_name.txt  #测试集图像名称
-├── train.txt  #训练数据集文件列表
-└── valid.txt  #测试数据集文件列表
+│   ├── label_list.txt		#类别
+│   ├── test_name.txt	#测试集图像名称
+│   ├── train.txt			#训练数据集文件列表
+│   └── valid.txt			#测试数据集文件列表
 ├── models  #所用模型合集
 │   ├── yolov8.py  #YOLOv8模型
 │   └── utils.py  #其他插件
