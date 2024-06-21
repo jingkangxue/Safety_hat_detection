@@ -35,10 +35,11 @@ helmet_detection
 │   ├── train.txt			#训练数据集文件列表
 │   └── valid.txt			#测试数据集文件列表
 ├── models  #所用模型合集
-│   ├── yolov8.py  #YOLOv8模型
+│   ├── yolov8.py  #YOLOv8程序
+│   ├── yolov8.yaml		#YOLOv8模型
 │   └── utils.py  #其他插件
 ├── train.py  #训练模型
-├── eval.py  #测试模型
+├── test.py  #测试模型
 ├── inference.py  #推理模型
 ├── requirements.txt  #所需库
 └── README.md  #实现步骤说明
