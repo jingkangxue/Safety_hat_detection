@@ -21,21 +21,23 @@ pip install -r requirements.txt
 ## 项目代码结构
 ```bash
 helmet_detection
-├──dataset  #数据集
-│   ├── test  #测试集
-│   │   ├── annotations  #标识文件夹
-│   │   │   ├── xxx1.xml	
+├── dataset  #数据集
+│   ├── images			#图片
+│   │   ├── train			#训练集
+│   │   │   ├── xxx1.jpg	
 │   │   │   │    ···
-│   │   ├── images  #图像文件夹
+│   │   ├── val			#验证集
 │   │   │   ├── xxx1.jpg
 │   │   │   │    ···
-│   ├── train  #训练集
-│   │   ├── annotations  #标识文件夹
-│   │   │   ├── xxx1.xml	
+│   ├── labels				#坐标标识
+│   │   ├── train			#训练集
+│   │   │   ├── xxx1.txt	
 │   │   │   │    ···
-│   │   ├── images  #图像文件夹
-│   │   │   ├── xxx1.jpg
+│   │   ├── val			#验证集
+│   │   │   ├── xxx1.txt
 │   │   │   │    ···
+│   │   ├── train.cache	#训练集图像转为txt
+│   │   ├── val.cache		#验证集图像转为txt
 │   ├── label_list.txt		#类别
 │   ├── test_name.txt	#测试集图像名称
 │   ├── train.txt			#训练数据集文件列表
