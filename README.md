@@ -13,6 +13,14 @@ git clone https://github.com/jingkangxue/Safety_hat_detection
 ```bash
 python data_clean.py
 ```
+运行xml2txt.py将数据集整理成yolo格式
+```bash
+python xml2txt.py
+```
+运行split_data.py对数据集进行划分
+```bash
+python split_data.py
+```
 ### 3) Library
 下载所需要的python库，在requirements.txt所在的文件夹中打开终端，运行以下代码。
 ```bash
