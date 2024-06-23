@@ -1,4 +1,4 @@
-<!--
+![image](https://github.com/jingkangxue/Safety_hat_detection/assets/173339714/eedef070-d9f7-4a40-9792-f29ef54fc639)<!--
  * @Author: lichenghui 837115887@qq.com
  * @Date: 2024-06-23 14:19:40
  * @LastEditors: lichenghui 837115887@qq.com
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ## 项目代码结构
 ```bash
 helmet_detection
-├── dataset  #数据集
+├──dataset					#数据集
 │   ├── images			#图片
 │   │   ├── train			#训练集
 │   │   │   ├── xxx1.jpg	
@@ -58,16 +58,19 @@ helmet_detection
 │   ├── test_name.txt	#测试集图像名称
 │   ├── train.txt			#训练数据集文件列表
 │   └── valid.txt			#测试数据集文件列表
-├── models  #所用模型合集
-│   ├── yolov8.py  #YOLOv8程序
-│   ├── yolov8.yaml		#YOLOv8模型
-│   └── utils.py  #其他插件
-├── data_clean.py  #数据清理
-├── train.py  #训练模型
-├── test.py  #测试模型
-├── inference.py  #推理模型
-├── requirements.txt  #所需库
-└── README.md  #实现步骤说明
+├── models			#所用模型合集
+│   ├── yolov8n.py		#YOLOv8模型
+├── utils	 #数据清理和转换
+│   ├── data_clean.txt			#数据清理
+│   └── split_data.py         #划分数据集为训练集、测试集和验证集
+│   └── xml2txt.py	           #把xml格式转换为txt格式
+├── run			#训练结构分析
+├── test				#测试环境可行性和分析结果
+│   ├── test_cuda.py					#测试cuda可行
+│   └── analytics.py                 #结果可视化
+├── main.py			#开始
+├── requirements.txt		#所需库
+└── README.md		#实现步骤说明
 ```
 ## Training
 ```bash
