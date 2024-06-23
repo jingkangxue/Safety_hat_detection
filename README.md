@@ -76,4 +76,4 @@ helmet_detection
 python main.py
 ```
 ## Evaluation
-see run/detect for mere detail
+see run/detect for more detail
