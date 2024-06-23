@@ -1,10 +1,3 @@
- * @Author: lichenghui 837115887@qq.com
- * @Date: 2024-06-23 14:19:40
- * @LastEditors: lichenghui 837115887@qq.com
- * @LastEditTime: 2024-06-23 15:13:27
- * @FilePath: /chli/helmat_detectioin/Safety_hat_detection/README.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 # Safety_hat_detection
 目标检测任务，能够识别所给出图像或视频中的人是否正确佩戴安全帽。
 
