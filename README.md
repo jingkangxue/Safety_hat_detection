@@ -1,4 +1,3 @@
-![image](https://github.com/jingkangxue/Safety_hat_detection/assets/173339714/eedef070-d9f7-4a40-9792-f29ef54fc639)<!--
  * @Author: lichenghui 837115887@qq.com
  * @Date: 2024-06-23 14:19:40
  * @LastEditors: lichenghui 837115887@qq.com
